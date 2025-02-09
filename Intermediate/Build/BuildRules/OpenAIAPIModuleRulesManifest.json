@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\MSUDemo\\OpenAIAPI\\Source\\OpenAIAPI\\OpenAIAPI.Build.cs",
+		"D:\\MSUDemo\\OpenAIAPI\\Plugins\\ChatGPTPlugin\\Source\\ChatGPTPlugin\\ChatGPTPlugin.Build.cs",
+		"D:\\MSUDemo\\OpenAIAPI\\Source\\OpenAIAPI.Target.cs",
+		"D:\\MSUDemo\\OpenAIAPI\\Source\\OpenAIAPIEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

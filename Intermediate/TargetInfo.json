@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "OpenAIAPI",
+			"Path": "..\\Source\\OpenAIAPI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "OpenAIAPIEditor",
+			"Path": "..\\Source\\OpenAIAPIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

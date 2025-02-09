@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\OpenAIAPI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OpenAIAPI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\OpenAIAPIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ChatGPTPlugin">
+      <UniqueIdentifier>{58413304-0760-31FB-B194-CE1A31317AAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ChatGPTPlugin\Source">
+      <UniqueIdentifier>{86472A3A-0CA6-3D8C-96DF-A8199FA17F22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ChatGPTPlugin\Source\ChatGPTPlugin">
+      <UniqueIdentifier>{479F063F-283E-3545-AB89-2D259735D0D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\ChatGPTPlugin.Build.cs">
+      <Filter>Plugins\ChatGPTPlugin\Source\ChatGPTPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Private">
+      <UniqueIdentifier>{1B33B354-282E-3665-B959-1383DC700CB5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Private\ChatGPTPlugin.cpp">
+      <Filter>Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Public">
+      <UniqueIdentifier>{17D5CD40-63F6-342E-B37F-27BC13952193}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Public\ChatGPTPlugin.h">
+      <Filter>Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Public\ChatGPTPluginSettings.h">
+      <Filter>Plugins\ChatGPTPlugin\Source\ChatGPTPlugin\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\ChatGPTPlugin\ChatGPTPlugin.uplugin">
+      <Filter>Plugins\ChatGPTPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\ChatGPTPlugin\Resources">
+      <UniqueIdentifier>{3939AF7B-5B78-369C-9700-D775F3E58547}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ChatGPTPlugin\Resources\Icon128.png">
+      <Filter>Plugins\ChatGPTPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Source\OpenAIAPI">
+      <UniqueIdentifier>{9573BC64-8018-36F8-AE0B-296A646FFB2E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\OpenAIAPI\MyActor.cpp">
+      <Filter>Source\OpenAIAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OpenAIAPI\MyActor.h">
+      <Filter>Source\OpenAIAPI</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\OpenAIAPI\OpenAIAPI.Build.cs">
+      <Filter>Source\OpenAIAPI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\OpenAIAPI\OpenAIAPI.cpp">
+      <Filter>Source\OpenAIAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OpenAIAPI\OpenAIAPI.h">
+      <Filter>Source\OpenAIAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
